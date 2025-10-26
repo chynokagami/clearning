@@ -4,5 +4,6 @@ int main(){
     int data;
     struct LNode *next;
   }LNode;
+  printf("i got github");
   return 0;
 }
