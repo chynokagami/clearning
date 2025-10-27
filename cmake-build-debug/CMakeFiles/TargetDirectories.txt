@@ -1,3 +1,4 @@
-C:/Users/Martin Chen/Documents/GitHub/clearning/cmake-build-debug/CMakeFiles/1linkedlist.c.dir
-C:/Users/Martin Chen/Documents/GitHub/clearning/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Martin Chen/Documents/GitHub/clearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/CHEN HAOYU/CLionProjects/clearning/cmake-build-debug/CMakeFiles/1linkedlist.c.dir
+C:/Users/CHEN HAOYU/CLionProjects/clearning/cmake-build-debug/CMakeFiles/test.c.dir
+C:/Users/CHEN HAOYU/CLionProjects/clearning/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CHEN HAOYU/CLionProjects/clearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
