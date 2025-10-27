@@ -128,6 +128,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1linkedlist.c.dir\build.make CMakeFiles/1linkedlist.c.dir/build
 .PHONY : 1linkedlist.c/fast
 
+#=============================================================================
+# Target rules for targets named test.c
+
+# Build rule for target.
+test.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test.c
+.PHONY : test.c
+
+# fast build rule for target.
+test.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.c.dir\build.make CMakeFiles/test.c.dir/build
+.PHONY : test.c/fast
+
 1linkedlist.obj: 1linkedlist.c.obj
 .PHONY : 1linkedlist.obj
 
@@ -152,6 +165,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1linkedlist.c.dir\build.make CMakeFiles/1linkedlist.c.dir/1linkedlist.c.s
 .PHONY : 1linkedlist.c.s
 
+test.obj: test.c.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.c.dir\build.make CMakeFiles/test.c.dir/test.c.obj
+.PHONY : test.c.obj
+
+test.i: test.c.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.c.dir\build.make CMakeFiles/test.c.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.c.dir\build.make CMakeFiles/test.c.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1linkedlist.c
+	@echo ... test.c
 	@echo ... 1linkedlist.obj
 	@echo ... 1linkedlist.i
 	@echo ... 1linkedlist.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

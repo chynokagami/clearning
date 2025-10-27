@@ -13,6 +13,6 @@ LNode *initList(){
   return L;        // 返回头指针
 }
 int main(){
-
+  printf("give a shot");
   return 0;
 }
