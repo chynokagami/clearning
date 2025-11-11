@@ -7,6 +7,12 @@ typedef struct LNode {
   struct LNode *next;
 } LNode;
 
+LNode *initList() {
+  LNode *L = (LNode *)malloc(sizeof(LNode));
+  L->next = NULL;
+  return L;
+}
+
 // 创建新结点
 LNode* createNode(int data) {
   //  创建结点newNode，动态分配内存
